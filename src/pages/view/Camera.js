@@ -8,7 +8,9 @@ export default function createCamera() {
         1000
     );
 
-    camera.position.set(0, 15, 45);
+    camera.position.set(0, 28, 95);
+
+    camera.lookAt(0,8,0);
 
     return camera;
 }
